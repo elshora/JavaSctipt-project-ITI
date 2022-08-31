@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Font Awesome -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <title>JS Project | Dstore</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <div class="logo-holder">
+                    <img class="logo-img" src="/images/logo.png" alt="logo">
+                    <button class="header-cart">
+                        <i class="fas fa-cart-plus"></i>
+                        <span class="head-counter">0</span>
+                    </button>
+                </div>
+                <button class="header-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <ul class="links">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="contact-us.html">Contact us</a>
+                </li>
+            </ul>
+        <ul class="social-icons">
+            <li>
+                <a href="https://www.facebook.com">
+                <i class="fab fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    </header>
+    <nav>
+        <div class="container">
+            <ul class="sections">
+                <li>
+                    <a href="#cars">cars</a>
+                </li>
+                <li>
+                    <a href="#phones">phones</a>
+                </li>
+                <li>
+                    <a href="#labs">Labtops</a>
+                </li>
+                <li>
+                    <a href="#make-up">Make Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+     <!--slider  -->
+    <main>
+        <div class="container">
+            <div class="slider-container">
+                <div id="silde-number" class="slide-number"></div>
+                    <img src="images/1.jpg" alt="" >
+                    <img src="images/2.jpg" alt="" >
+                    <img src="/images/3.jpg" alt="" >
+                    <img src="images/4.jpg" alt="" >
+                    <img src="images/5.jpg" alt="" >
+                    <img src="images/6.jpg" alt="" >
+                    <span id="prev" class="prev"><i class="fas fa-regular fa-angle-left"></i></span>
+                    <span id="next" class="next"><i class="fas fa-regular fa-angle-right"></i></span>
+                    <div class="slider-controls">
+                        <span id="indicators" class="indicators"></span>
+                    </div>
+            </div>
+        </div>
+    </main>
+    <!-- Start car section-->
+    <section id="cars" class="cars">
+        <div class="sechead">
+            <h2 class="title">cars</h2>
+            <div class="container">
+                <span class="reset">all</span>
+                <ul class="classification">
+                    <li class="white">white</li>
+                    <li class="red">black</li>
+                    <li class="blue">blue</li>
+                    <li class="red">red</li>
+                </ul>
+        </div>
+        </div>
+        <div class="container">
+                <div id="car-product" class="product" data-white>
+                    <img class="image-product" src="/images/cars/1.jpg" alt="">
+                    <h3 class="product-title">BMW</h3>
+                    <p class="brief">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis repellat amet </p>
+                    <div class="price">20$</div> 
+                    <i class="fas fa-cart-plus product-cart-btn"></i>
+                </div>
+                <div id="car-product" class="product" data-white>
+                    <img class="image-product" src="/images/cars/2.jpg" alt="">
+                    <h3 class="product-title" >Ferrari</h3>
+                    <p class="brief">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis repellat amet </p>
+                    <div class="price">40$</div> 
+                    <i class="fas fa-cart-plus product-cart-btn"></i>
+                </div>
+                <div id="car-product" class="product" data-red>
+                    <img class="image-product" src="/images/cars/3.jpg" alt="">
+                    <h3 class="product-title" >mercides</h3>
+                    <p class="brief">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis repellat amet </p>
+                    <div class="price">20$</div> 
+                    <i class="fas fa-cart-plus product-cart-btn"></i>
+                </div>
+                <div class="product" id="car-product" data-red>
+                    <img class="image-product" src="/images/cars/4.jpg" alt="">
+                    <h3 class="product-title" >hundai</h3>
+                    <p class="brief">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis repellat amet </p>
+                    <div class="price">60$</div> 
+                    <i class="fas fa-cart-plus product-cart-btn"></i>
+                </div>
+                <div class="product" id="car-product" data-black>
+                    <img class="image-product" src="/images/cars/5.jpg" alt="">
+                    <h3 class="product-title">lada</h3>
+                    <p class="brief">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis repellat amet </p>
+                    <div class="price">70$</div> 
+                    <i class="fas fa-cart-plus product-cart-btn"></i>
+                </div>
+                <div class="product" id="car-product" data-black>
+                    <img class="image-product" src="/images/cars/6.jpg" alt="">
+                    <h3 class="product-title" >product1</h3>
+                    <p class="brief">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis repellat amet </p>
+                    <div class="price">20$</div> 
+                    <i class="fas fa-cart-plus product-cart-btn"></i>
+                </div>
+                <div class="product" id="car-product" data-blue>
+                    <img class="image-product" src="/images/cars/7.jpg" alt="">
+                    <h3 class="product-title" >product2</h3>
+                    <p class="brief">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis repellat amet </p>
+                    <div class="price">20$</div> 
+                    <i class="fas fa-cart-plus product-cart-btn"></i>
+                </div>
+                <div class="product" id="car-product" data-blue>
+                    <img class="image-product" src="/images/cars/8.jpg" alt="">
+                    <h3 class="product-title" >product3</h3>
+                    <p class="brief">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis repellat amet </p>
+                    <div class="price">20k</div>
+                <i class="fas fa-cart-plus product-cart-btn"></i>
+                </div>
+            </div>
+    </section>  
+    <!-- End of car section -->
+    <!-- phone section -->
+    <section id="phones" class="phones">
+        <h2 class="title">phones</h2>
+
+        <div class="container">
+                <div class="product">
+                    <img class="image-product" src="/images/phones/1.jpg" alt="">
+                    <h3 class="product-title" >samsung</h3>
+                    <p class="brief">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis repellat amet </p>
+                    <div class="price">20$</div> 
+                    <i class="fas fa-cart-plus product-cart-btn"></i>
+                </div>
+                <div class="product">
+                    <img class="image-product" src="/images/phones/2.jpg" alt="">
+                    <h3 class="product-title" >iphone</h3>
+                    <p class="brief">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis repellat amet </p>
+                    <div class="price">20$</div> 
+                    <i class="fas fa-cart-plus product-cart-btn"></i>
+                </div>
+                <div class="product">
+                    <img class="image-product" src="/images/phones/3.jpg" alt="">
+                    <h3 class="product-title">mi</h3>
+                    <p class="brief">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis repellat amet </p>
+                    <div class="price">20$</div> 
+                    <i class="fas fa-cart-plus product-cart-btn"></i>
+                </div>
+                <div class="product">
+                    <img class="image-product" src="/images/phones/4.jpg" alt="">
+                    <h3 class="product-title" >redmi</h3>
+                    <p class="brief">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis repellat amet </p>
+                    <div class="price">30$</div> 
+                    <i class="fas fa-cart-plus product-cart-btn"></i>
+                </div>
+                <div class="product">
+                    <img class="image-product" src="/images/phones/5.jpg" alt="">
+                    <h3 class="product-title" >realme</h3>
+                    <p class="brief">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis repellat amet </p>
+                    <div class="price">20$</div> 
+                    <i class="fas fa-cart-plus product-cart-btn"></i>
+                </div>
+                <div class="product">
+                    <img class="image-product" src="/images/phones/6.jpg" alt="">
+                    <h3 class="product-title" >product</h3>
+                    <p class="brief">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis repellat amet </p>
+                    <div class="price">20$</div> 
+                    <i class="fas fa-cart-plus product-cart-btn"></i>
+                </div>
+                <div class="product">
+                    <img class="image-product" src="/images/phones/7.jpg" alt="">
+                    <h3 class="product-title" >product4</h3>
+                    <p class="brief">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis repellat amet </p>
+                    <div class="price">20$</div> 
+                    <i class="fas fa-cart-plus product-cart-btn"></i>
+                </div>
+                <div class="product">
+                    <img class="image-product" src="/images/phones/8.jpg" alt="">
+                    <h3 class="product-title" >product5</h3>
+                    <p class="brief">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis repellat amet </p>
+                    <div class="price">20k</div> 
+                <i class="fas fa-cart-plus product-cart-btn"></i>
+                </div>
+            </div>
+    </section>  
+    <!-- end of phones section -->
+    <!-- labtops section -->
+    <section id="labs" class="labs">
+        <h2 class="title">labtops</h2>
+
+        <div class="container">
+                <div class="product">
+                    <img class="image-product" src="/images/labs/1.jpg" alt="">
+                    <h3 class="product-title" >product6</h3>
+                    <p class="brief">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis repellat amet </p>
+                    <div class="price">20$</div> 
+                    <i class="fas fa-cart-plus product-cart-btn"></i>
+                </div>
+                <div class="product">
+                    <img class="image-product" src="/images/labs/2.jpg" alt="">
+                    <h3 class="product-title" >product7</h3>
+                    <p class="brief">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis repellat amet </p>
+                    <div class="price">20$</div> 
+                    <i class="fas fa-cart-plus product-cart-btn"></i>
+                </div>
+                <div class="product">
+                    <img class="image-product" src="/images/labs/3.jpg" alt="">
+                    <h3 class="product-title" >product8</h3>
+                    <p class="brief">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis repellat amet </p>
+                    <div class="price">20$</div> 
+                    <i class="fas fa-cart-plus product-cart-btn"></i>
+                </div>
+                <div class="product">
+                    <img class="image-product" src="/images/labs/4.jpg" alt="">
+                    <h3 class="product-title" >product9</h3>
+                    <p class="brief">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis repellat amet </p>
+                    <div class="price">20$</div> 
+                    <i class="fas fa-cart-plus product-cart-btn"></i>
+                </div>
+                <div class="product">
+                    <img class="image-product" src="/images/labs/5.jpg" alt="">
+                    <h3 class="product-title" >product10</h3>
+                    <p class="brief">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis repellat amet </p>
+                    <div class="price">20$</div> 
+                    <i class="fas fa-cart-plus product-cart-btn"></i>
+                </div>
+                <div class="product">
+                    <img class="image-product" src="/images/labs/6.jpg" alt="">
+                    <h3 class="product-title" >product11</h3>
+                    <p class="brief">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis repellat amet </p>
+                    <div class="price">20$</div> 
+                    <i class="fas fa-cart-plus product-cart-btn"></i>
+                </div>
+                <div class="product">
+                    <img class="image-product" src="/images/labs/7.jpg" alt="">
+                    <h3 class="product-title" >product12</h3>
+                    <p class="brief">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis repellat amet </p>
+                    <div class="price">20$</div> 
+                    <i class="fas fa-cart-plus product-cart-btn"></i>
+                </div>
+                <div class="product">
+                    <img class="image-product" src="/images/labs/8.jpg" alt="">
+                    <h3 class="product-title" >product13</h3>
+                    <p class="brief">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis repellat amet </p>
+                    <div class="price">20k</div> 
+                <i class="fas fa-cart-plus product-cart-btn"></i>
+                </div>
+            </div>
+    </section>  
+    <!-- end of labtops section -->
+    <!-- make up section -->
+    <section id="make-up" class="make-up">
+        <h2 class="title">make up</h2>
+
+        <div class="container">
+                <div class="product">
+                    <img class="image-product" src="/images/makeup/1.jpg" alt="">
+                    <h3 class="product-title" >product14</h3>
+                    <p class="brief">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis repellat amet </p>
+                    <div class="price">20$</div> 
+                    <i class="fas fa-cart-plus product-cart-btn"></i>
+                </div>
+                <div class="product">
+                    <img class="image-product" src="/images/makeup/2.jpg" alt="">
+                    <h3 class="product-title" >product15</h3>
+                    <p class="brief">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis repellat amet </p>
+                    <div class="price">20$</div> 
+                    <i class="fas fa-cart-plus product-cart-btn"></i>
+                </div>
+                <div class="product">
+                    <img class="image-product" src="/images/makeup/3.jpg" alt="">
+                    <h3 class="product-title" >product16</h3>
+                    <p class="brief">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis repellat amet </p>
+                    <div class="price">20$</div> 
+                    <i class="fas fa-cart-plus product-cart-btn"></i>
+                </div>
+                <div class="product">
+                    <img class="image-product" src="/images/makeup/4.jpg" alt="">
+                    <h3 class="product-title" >product17</h3>
+                    <p class="brief">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis repellat amet </p>
+                    <div class="price">20$</div> 
+                    <i class="fas fa-cart-plus product-cart-btn"></i>
+                </div>
+                <div class="product">
+                    <img class="image-product" src="/images/makeup/5.jpg" alt="">
+                    <h3 class="product-title" >product18</h3>
+                    <p class="brief">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis repellat amet </p>
+                    <div class="price">20$</div> 
+                    <i class="fas fa-cart-plus product-cart-btn"></i>
+                </div>
+                <div class="product">
+                    <img class="image-product" src="/images/makeup/7.jpg" alt="">
+                    <h3 class="product-title" >product19</h3>
+                    <p class="brief">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis repellat amet </p>
+                    <div class="price">20$</div> 
+                    <i class="fas fa-cart-plus product-cart-btn"></i>
+                </div>
+                <div class="product">
+                    <img class="image-product" src="/images/makeup/7.jpg" alt="">
+                    <h3 class="product-title" >product20</h3>
+                    <p class="brief">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis repellat amet </p>
+                    <div class="price">20$</div> 
+                    <i class="fas fa-cart-plus product-cart-btn"></i>
+                </div>
+                <div class="product">
+                    <img class="image-product" src="/images/makeup/8.jpg">
+                    <h3 class="product-title"> product21</h3>
+                    <p class="brief">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis repellat amet </p>
+                <div class="price">20$</div>                     
+                <i class="fas fa-cart-plus product-cart-btn"></i>
+            </div>
+    </section>  
+    <!-- End make up section -->
+    <!-- start testimonials section -->
+    <article class="testimonials">
+        <h2 class="title">testimonials</h2>
+        <div class="container">
+            <div class="box">
+                <div class="image">
+                    <img src="images/avatar-01.png" alt="">
+                </div>
+                <h3>Client Name</h3>
+                <p>jop</p>
+                <div class="icon">
+                    <i class="fas fas-solid fa-star"></i>
+                    <i class="fas fa-solid fa-star"></i>
+                    <i class="fas fa-solid fa-star"></i>
+                    <i class="fas fa-solid fa-star"></i>
+                    <i class="fas fa-solid fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus quaerat ducimus</p>
+            </div>
+            <div class="box">
+                <div class="image">
+                <img src="images/avatar-02.png" alt="">
+                </div>
+                <h3>Client Name</h3>
+                <p>Jop</p>
+                <div class="icon">
+                    <i class="fas fas-solid fa-star"></i>
+                    <i class="fas fa-solid fa-star"></i>
+                    <i class="fas fa-solid fa-star"></i>
+                    <i class="fas fa-solid fa-star"></i>
+                    <i class="fas fa-solid fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus quaerat ducimus</p>
+            </div>
+            <div class="box">
+                <div class="image">
+                <img src="images/avatar-03.png" alt="">
+                </div>
+                <h3>Client Name</h3>
+                <p>Jop</p>
+                <div class="icon">
+                    <i class="fas fas-solid fa-star"></i>
+                    <i class="fas fa-solid fa-star"></i>
+                    <i class="fas fa-solid fa-star"></i>
+                    <i class="fas fa-solid fa-star"></i>
+                    <i class="fas fa-solid fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus quaerat ducimus</p>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/avatar-04.png" alt="">
+                </div>
+                <h3>Client Name</h3>
+                <p>Jop</p>
+                <div class="icon">
+                    <i class="fas fas-solid fa-star"></i>
+                    <i class="fas fa-solid fa-star"></i>
+                    <i class="fas fa-solid fa-star"></i>
+                    <i class="fas fa-solid fa-star"></i>
+                    <i class="fas fa-solid fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus quaerat ducimus</p>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/avatar-05.png" alt="">
+                </div>
+                <h3>Client Name</h3>
+                <p>Jop</p>
+                <div class="icon">
+                    <i class="fas fas-solid fa-star"></i>
+                    <i class="fas fa-solid fa-star"></i>
+                    <i class="fas fa-solid fa-star"></i>
+                    <i class="fas fa-solid fa-star"></i>
+                    <i class="fas fa-solid fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus quaerat ducimus</p>
+            </div>
+            <div class="box">
+                <div class="image">
+                <img src="images/avatar-06.png" alt="">
+                </div>
+                <h3>Client Name</h3>
+                <p>Jop</p>
+                <div class="icon">
+                    <i class="fas fas-solid fa-star"></i>
+                    <i class="fas fa-solid fa-star"></i>
+                    <i class="fas fa-solid fa-star"></i>
+                    <i class="fas fa-solid fa-star"></i>
+                    <i class="fas fa-solid fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus quaerat ducimus</p>
+            </div>
+        </div>
+    </article>
+<!-- end Tesrimonials section -->
+    <footer>
+        <div class="to-top">Back to top</div>
+        <div class="container">
+            <div class="side">
+                <div class="store-name">
+                    <img src="/images/logo.png" alt="">
+                    <h3>Dstore</h3>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit. Vitae officiis quisquam
+                    Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit. Vitae officiis quisquam
+                </p>
+                <ul class="footer-social-icons">
+                    <li>
+                        <a href="https://www.facebook.com">
+                        <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.twitter.com">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.twitter.com">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="side">
+                <ul class="footer-links">
+                    <li>
+                        <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                        <a href="#">Contact us</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                        <a href="#cars">cars</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                        <a href="#phones">phones</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                        <a href="#labs">Labtops</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                        <a href="#make-up">Make Up</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="side">
+                <ul class="store-info">
+                    <li class="location"><i class="fas fa-map-marker" ></i> Tanta, Gharbia, Egypt</li>
+                    <li> <i class="fas fa-calendar-o" aria-hidden="true"></i>
+                        - Open from <time>9:00</time> to <time>23:00</time></li>
+                    <li class="numbers"><i class="fas fa-phone" aria-hidden="true"></i>
+                        +20123456789</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="cart">
+        <button class="close-btn">
+            <i class="fa fa-times" aria-hidden="true"></i>
+        </button>
+        <h3>My cart</h3>
+        <div class="items-holder">
+        </div>
+        <div class="total">
+            <div class="total-title">total:</div>
+            <div class="total-price">$0</div>
+        </div>
+        <button class="chekcout">checkout</button>
+    </div>
+    <script src="js/demo.js"></script>
+</body>
+</html>
